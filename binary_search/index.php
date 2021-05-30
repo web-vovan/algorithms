@@ -2,7 +2,7 @@
 
 // Бинарный поиск
 
-function binary_search($arr, $int) {
+function binary_search(array $arr, int $int) {
     $lower_index = 0;
     $upper_index = count($arr) - 1;
 

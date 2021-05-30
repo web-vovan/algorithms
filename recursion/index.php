@@ -2,7 +2,7 @@
 
 // рекурсивная функция вычисления факториала
 
-function factorial($i) {
+function factorial(int $i): int {
     if ($i <= 1) {
         return 1;
     }

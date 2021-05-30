@@ -5,7 +5,7 @@
  * также может использоваться на нахождения стороны наибольшего квадрата
  * при делении произвольного участка на равные квадраты
 */
-function euclidean_algorithm($a, $b) {
+function euclidean_algorithm(int $a, int $b): int {
     if ($a > $b) {
         if ($a % $b === 0) {
             return $b;
