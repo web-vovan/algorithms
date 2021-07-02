@@ -1,5 +1,9 @@
 <?php
+
+use Learning\Stack\Stack;
+
 include './Stack.php';
+include './Node.php';
 
 /*
  * пример реализации стека на php
@@ -18,4 +22,3 @@ $stack->put('five');
 while (!$stack->isEmpty()) {
     echo $stack->get() . PHP_EOL;
 }
-

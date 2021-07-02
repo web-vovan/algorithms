@@ -1,5 +1,6 @@
 <?php
-include './Node.php';
+
+namespace Learning\Stack;
 
 class Stack
 {

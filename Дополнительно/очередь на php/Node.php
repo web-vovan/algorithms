@@ -1,6 +1,6 @@
 <?php
 
-namespace Learning\Stack;
+namespace Learning\Queue;
 
 class Node
 {
